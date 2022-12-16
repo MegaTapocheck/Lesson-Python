@@ -1,0 +1,5 @@
+monitor = int(input("Стоимость монитора: "))
+blok = int(input("Стоимость системного блока: "))
+klavaiatura = int(input("Стоимость клавиатуры: "))
+mishka = int(input("Стоимость мыши: "))
+print("Стоимость трех компьютеров равна: ", (monitor + klavaiatura + blok + mishka)*3)
